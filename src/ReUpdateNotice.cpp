@@ -1,4 +1,4 @@
-#include "mod/UpdateNotice.h"
+#include "ReUpdateNotice.h"
 #include "glacie/GlacieAPI.h"
 #include "gmlib/gm/papi/PlaceholderAPI.h"
 #include "ll/api/Config.h"
@@ -11,14 +11,14 @@
 
 namespace gm {
 
-UpdateNotice& UpdateNotice::getInstance() {
-    static UpdateNotice instance;
+ReUpdateNotice& ReUpdateNotice::getInstance() {
+    static ReUpdateNotice instance;
     return instance;
 }
 
-bool UpdateNotice::load() { return true; }
+bool ReUpdateNotice::load() { return true; }
 
-bool UpdateNotice::enable() {
+bool ReUpdateNotice::enable() {
     mConfig.emplace();
     if (!ll::config::loadConfig(*mConfig, getSelf().getConfigDir() / u8"config.json")) {
         ll::config::saveConfig(*mConfig, getSelf().getConfigDir() / u8"config.json");
@@ -74,16 +74,16 @@ bool UpdateNotice::enable() {
     return true;
 }
 
-bool UpdateNotice::disable() {
+bool ReUpdateNotice::disable() {
     mI18n.reset();
     mConfig.reset();
     return true;
 }
 
-bool UpdateNotice::unload() { return true; }
+bool ReUpdateNotice::unload() { return true; }
 
-gmlib::i18n::LangI18n& UpdateNotice::getI18n() { return *mI18n; }
+gmlib::i18n::LangI18n& ReUpdateNotice::getI18n() { return *mI18n; }
 
 } // namespace gm
 
-LL_REGISTER_MOD(gm::UpdateNotice, gm::UpdateNotice::getInstance());
+LL_REGISTER_MOD(gm::ReUpdateNotice, gm::ReUpdateNotice::getInstance());
