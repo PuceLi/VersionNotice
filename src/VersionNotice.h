@@ -5,11 +5,11 @@
 
 namespace gm {
 
-class ReUpdateNotice {
+class VersionNotice {
 public:
-    static ReUpdateNotice& getInstance();
+    static VersionNotice& getInstance();
 
-    ReUpdateNotice() : mSelf(*ll::mod::NativeMod::current()) {}
+    VersionNotice() : mSelf(*ll::mod::NativeMod::current()) {}
 
     [[nodiscard]] ll::mod::NativeMod& getSelf() const { return mSelf; }
 
@@ -30,6 +30,6 @@ private:
 };
 
 // 修正宏
-GMLIB_LANGI18N_LITERALS(ReUpdateNotice::getInstance().getI18n())
+GMLIB_LANGI18N_LITERALS(VersionNotice::getInstance().getI18n())
 
 } // namespace gm

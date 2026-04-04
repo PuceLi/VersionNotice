@@ -1,6 +1,12 @@
-form.title=Update Notice
-form.content=You are currently using an older client version for the game!\n\nCurrent server version %server_version%\nYour client version %player_client_version%\n\nTo ensure a complete gaming experience, please update your client to version %server_version% or higher.
+form.title=Version Notice
 form.confirm=I understand
+
+form.content=You are currently using an older client version for the game!\n\nCurrent server version %server_version%\nYour client version %player_client_version%\n\nTo ensure a complete gaming experience, please update your client to version %server_version% or higher.
 notice.message=§eYou are currently using an older client version for the game!\nCurrent server version %server_version% \nYour client version %player_client_version%\nTo ensure a complete gaming experience, please update your client to version %server_version% or higher.
 toast.title=You are currently using an older client version for the game!
 toast.message=Please update your client to version %server_version% or higher to ensure a good gaming experience!
+
+higher_version.form.content=You are playing with a higher client version!\n\nServer Version: %server_version%\nClient Version: %player_client_version%
+higher_version.notice.message=§eYou are playing with a higher client version!\nServer Version: %server_version%\nClient Version: %player_client_version%
+higher_version.toast.title=Higher client version detected!
+higher_version.toast.message=Server Version: %server_version% ,Client Version: %player_client_version%

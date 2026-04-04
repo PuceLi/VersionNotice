@@ -4,7 +4,7 @@
   "tooth": "github.com/PuceLi/ReUpdateNotice",
   "version": "1.0.1",
   "info": {
-    "name": "ReUpdateNotice",
+    "name": "VersionNotice",
     "description": "Remind players of earlier versions to update the client",
     "tags": [
       "platform:levilamina",
