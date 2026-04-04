@@ -1,11 +1,11 @@
 {
   "format_version": 3,
   "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
-  "tooth": "github.com/PuceLi/ReUpdateNotice",
-  "version": "1.0.1",
+  "tooth": "github.com/PuceLi/VersionNotice",
+  "version": "1.1.0",
   "info": {
     "name": "VersionNotice",
-    "description": "Remind players of earlier versions to update the client",
+    "description": "提醒玩家注意客户端版本",
     "tags": [
       "platform:levilamina",
       "type:mod"
@@ -23,7 +23,7 @@
         {
           "type": "zip",
           "urls": [
-            "https://{{tooth}}/releases/download/v{{version}}/ReUpdateNotice-server-windows-x64.zip"
+            "https://{{tooth}}/releases/download/v{{version}}/VersionNotice-server-windows-x64.zip"
           ],
           "placements": [
             {
@@ -57,7 +57,7 @@
         {
           "type": "zip",
           "urls": [
-            "https://{{tooth}}/releases/download/v{{version}}/ReUpdateNotice-client-windows-x64.zip"
+            "https://{{tooth}}/releases/download/v{{version}}/VersionNotice-client-windows-x64.zip"
           ],
           "placements": [
             {

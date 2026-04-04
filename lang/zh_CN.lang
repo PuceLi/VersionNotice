@@ -2,11 +2,11 @@ form.title=版本提示
 form.confirm=我已知晓
 
 form.content=你正在使用较低的客户端版本进行游戏！\n\n服务端版本 %server_version%\n你的客户端版本 %player_client_version%\n\n为保证完整的游戏体验，请将客户端更新至 %server_version% 版本及以上
-notice.message=§e你正在使用较低的客户端版本进行游戏！\n服务端版本 %server_version%\n你的客户端版本 %player_client_version%\n为保证完整的游戏体验，请将客户端更新至 %server_version% 版本及以上
+notice.message=§l§e你正在使用较低的客户端版本进行游戏！\n服务端版本 %server_version%\n你的客户端版本 %player_client_version%\n为保证完整的游戏体验，请将客户端更新至 %server_version% 版本及以上
 toast.title=你正在使用较低的客户端版本进行游戏！
 toast.message=请将客户端更新至 %server_version% 版本以上以保证游戏体验！
 
 higher_version.form.content=你正在使用高于服务端版本的客户端进行游戏！\n\n服务端版本 %server_version%\n客户端版本 %player_client_version%
-higher_version.notice.message=§e你正在使用高于服务端版本的客户端进行游戏！\n服务端版本 %server_version%\n客户端版本 %player_client_version%
+higher_version.notice.message=§l§e你正在使用高于服务端版本的客户端进行游戏！\n服务端版本 %server_version%\n客户端版本 %player_client_version%
 higher_version.toast.title=你正在使用较高的客户端版本进行游戏！
 higher_version.toast.message=服务端版本 %server_version% ，客户端版本 %player_client_version%

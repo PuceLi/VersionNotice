@@ -3,6 +3,7 @@
     "entry": "${modFile}",
     "version": "${modVersion}",
     "type": "native",
+    "author": "GroupMountain & PuceLi",
     "dependencies": [
         {
             "name": "GMLIB"
